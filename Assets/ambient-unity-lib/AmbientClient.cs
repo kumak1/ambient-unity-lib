@@ -5,7 +5,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Net.Http;
 
-namespace AmbientClient
+namespace AmbientUnityLib
 {
     public class Ambient
     {

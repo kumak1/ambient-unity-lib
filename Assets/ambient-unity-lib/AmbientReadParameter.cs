@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Web;
 
-namespace AmbientClient
+namespace AmbientUnityLib
 {
     public class AmbientReadParameter
     {
