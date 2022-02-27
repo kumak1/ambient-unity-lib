@@ -1,0 +1,17 @@
+{
+  "name": "com.kumak1.ambient-unity-lib",
+  "displayName": "Ambient Unity Lib",
+  "description": "Ambient Unity Lib is a Ambient REST client that makes it easy to send HTTP requests.",
+  "author": {
+    "name": "kumak1",
+    "url": "https://github.com/kumak1"
+  },
+  "version": "0.1.0",
+  "unity": "2022.2",
+  "license": "MIT License",
+  "keywords": [
+    "unity",
+    "ambient"
+  ],
+  "dependencies": {}
+}
