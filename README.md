@@ -2,15 +2,30 @@
 
 ambient-unity-lib は [Ambient](https://ambidata.io/) との通信を楽にする API Client です
 
-## Installing
+## Install
 
-### プロジェクトへパッケージの追加
+UnityProject の `manifest.json` に以下記述を追加してください
 
-Unity の `Package Manager` から追加します。
+```json
+{
+  "scopedRegistries": [
+    {
+      "name": "npm",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.kumak1"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.kumak1.ambient-unity-lib": "0.1.1",
 
-1. `+` アイコンをクリック
-2. `Add package from git URL...` をクリック
-3. `git@github.com:kumak1/ambient-unity-lib.git` を入力
+    // 中略
+    
+  }
+}
+
+```
 
 ## Usage
 
