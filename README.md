@@ -30,6 +30,10 @@ UnityProject の `manifest.json` に以下記述を追加してください
 ## Usage
 
 ```cs
+using AmbientUnityLib;
+```
+
+```cs
 var ambient = new Ambient("channel id", "read key", "write key");
 
 ambient.Send(new AmbientSendParameter { D1 = "0.5" });
